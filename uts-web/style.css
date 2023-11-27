@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40400%3B500&display=swap%27%29%3B');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+}
+
+/* Login Container */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+
+@media (max-width: 992px) {
+    .col-md-8 {
+      width: 100%; /* Kolom mengambil 100% lebar pada ukuran sedang */
+    }
+    .col-xl-4 {
+      width: 100%; /* Kolom mengambil 100% lebar pada ukuran sedang */
+      margin-top: 20px; /* Tambahkan margin atas agar terlihat rapi */
+    }
+  }
+
+  /* Backround */
+  
+  
